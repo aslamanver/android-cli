@@ -1,0 +1,73 @@
+#!/bin/bash
+
+CURDIR=$(/bin/pwd)
+BASEDIR=$(dirname $0)
+ABSPATH=$(readlink -f $0)
+ABSDIR=$(dirname $ABSPATH)
+LOGS="0"
+
+if [[ $3 == "logs" ]]; then
+  LOGS="1"
+fi
+
+if [[ $2 == "logs" ]]; then
+  LOGS="1"
+fi
+
+func_scrcpy() {
+  INDEX=0
+  for i in $(adb devices -l); do
+    if [[ $i == *"usb"* ]]; then
+      echo "$i $INDEX"
+      let INDEX=${INDEX}+1
+      scrcpy -s $i -p 787$INDEX &>>$BASEDIR/logs &
+    fi
+  done
+}
+
+func_adb() {
+  for i in $(adb devices -l); do
+    if [[ $i == *"usb"* ]]; then
+      echo "--------------------"
+      printf "Device serial: "
+      adb -s $i shell getprop ro.serialno
+      echo "Command: adb -s $i $1"
+      echo "Result:"
+      if [ $LOGS == "1" ]; then
+        adb -s $i $1 &>>$BASEDIR/logs &
+      else
+        adb -s $i $1
+      fi
+    fi
+  done
+}
+
+func_adb_url_install() {
+  FILENAME=$(basename "$1")
+  EXTENSION="${FILENAME##*.}"
+  if [[ $EXTENSION == "apk" ]]; then
+    find "${BASEDIR}/temp" -maxdepth 1 -name "*.apk" -type f -delete
+    wget -N $1 --no-check-certificate -P "${BASEDIR}/temp"
+    func_adb "install -f ${BASEDIR}/temp/${FILENAME}"
+  else
+    echo -e "\e[01;31mThe URL does not contain .apk\e[0m"
+  fi
+}
+
+if [ $1 == "scrcpy" ]; then
+  func_scrcpy
+elif [ $1 == "adb" ]; then
+  func_adb "$2"
+elif [ $1 == "apk" ]; then
+  for file in $CURDIR/*.apk; do
+    func_adb "install -r $file"
+  done
+elif [ $1 == "files" ]; then
+  for file in $CURDIR/*; do
+    func_adb "push $file ./storage/emulated/legacy/"
+  done
+elif [ $1 == "install-url" ]; then
+  func_adb_url_install "$2"
+elif [ $1 == "logs" ]; then
+  tail -f $BASEDIR/logs
+fi

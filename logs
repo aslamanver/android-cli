@@ -1,0 +1,139 @@
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+adb: unknown command poweroff
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 3.1 MB/s (3290914 bytes in 1.006s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.4 MB/s (3290914 bytes in 1.322s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.4 MB/s (3290914 bytes in 1.327s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.6 MB/s (3290914 bytes in 1.191s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 3.0 MB/s (3290914 bytes in 1.060s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.4 MB/s (3290914 bytes in 1.314s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 4.5 MB/s (18781296 bytes in 4.021s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 4.1 MB/s (18781296 bytes in 4.387s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.5 MB/s (3290914 bytes in 1.247s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 2.1 MB/s (2001648 bytes in 0.913s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 1.8 MB/s (2001648 bytes in 1.067s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 2.0 MB/s (3290914 bytes in 1.592s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 1.4 MB/s (2001648 bytes in 1.399s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 1.6 MB/s (3290914 bytes in 1.939s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 1.0 MB/s (2001648 bytes in 1.996s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 1.2 MB/s (3290914 bytes in 2.567s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 0.9 MB/s (2001648 bytes in 2.217s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/WposTestV2.apk: 1 file pushed. 0.8 MB/s (2001648 bytes in 2.322s)
+	pkg: /data/local/tmp/WposTestV2.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 1.1 MB/s (3290914 bytes in 2.764s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/DarazScan-v1.0.4.apk: 1 file pushed. 1.1 MB/s (3290914 bytes in 2.907s)
+	pkg: /data/local/tmp/DarazScan-v1.0.4.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 3.9 MB/s (18781296 bytes in 4.581s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 3.8 MB/s (18781296 bytes in 4.762s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 3.6 MB/s (18781296 bytes in 4.950s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 3.2 MB/s (18781296 bytes in 5.652s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Success
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 3.1 MB/s (18781296 bytes in 5.767s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Performing Push Install
+/home/aslam/PAYable/APKs/QA/10-12-2019/2/INSTALL/MINI-v4.1.14-DEV.apk: 1 file pushed. 2.9 MB/s (18781296 bytes in 6.175s)
+	pkg: /data/local/tmp/MINI-v4.1.14-DEV.apk
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+Success
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 4.4 MB/s (19726 bytes in 0.004s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 3.0 MB/s (19726 bytes in 0.006s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 3.1 MB/s (19726 bytes in 0.006s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 3.0 MB/s (19726 bytes in 0.006s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 2.7 MB/s (19726 bytes in 0.007s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 1.9 MB/s (19726 bytes in 0.010s)
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 3.5 MB/s (19726 bytes in 0.005s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 2.3 MB/s (19726 bytes in 0.008s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 3.4 MB/s (19726 bytes in 0.006s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 2.1 MB/s (19726 bytes in 0.009s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 1.5 MB/s (19726 bytes in 0.013s)
+/usr/local/share/scrcpy/scrcpy-server.jar: 1 file pushed. 1.7 MB/s (19726 bytes in 0.011s)
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
+INFO: Initial texture: 480x848
