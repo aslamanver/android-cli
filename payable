@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# PAYable CLI
+# Copyright (C) 2019-2020 Aslam@PAYable
+# https://gitlab.payable.lk/aslam/payable-cli
+
 CURDIR=$(/bin/pwd)
 BASEDIR=$(dirname $0)
 ABSPATH=$(readlink -f $0)
