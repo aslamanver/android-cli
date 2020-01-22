@@ -1,26 +1,26 @@
 ## PAYable CLI
 
 * Logs
-```
-payable logs
+```shell
+$ payable logs
 ```
 
 * Scrcpy
-```
-payable scrcpy
+```shell
+$ payable scrcpy
 ```
 
 * APK
-```
-payable apk some_file.apk
+```shell
+$ payable apk some_file.apk
 ```
 
 * Files
-```
-payable files any_file_name
+```shell
+$ payable files any_file_name
 ```
 
 * Install from URL
-```
-payable install-url "https://someurl.com/file.apk"
+```shell
+$ payable install-url "https://someurl.com/file.apk"
 ```
