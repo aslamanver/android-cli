@@ -72,6 +72,8 @@ elif [ $1 == "files" ]; then
   done
 elif [ $1 == "install-url" ]; then
   func_adb_url_install "$2"
+elif [ $1 == "vname" ]; then
+  python3 $BASEDIR/vname.py
 elif [ $1 == "logs" ]; then
   tail -f $BASEDIR/logs
 fi
