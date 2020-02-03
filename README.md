@@ -24,3 +24,8 @@ $ payable files any_file_name
 ```shell
 $ payable install-url "https://someurl.com/file.apk"
 ```
+
+* Rename file according to the output.json version name and custom name
+```shell
+$ payable vname
+```
