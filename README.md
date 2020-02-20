@@ -1,31 +1,31 @@
-## PAYable CLI
+## Android CLI
 
 * Logs
 ```shell
-$ payable logs
+$ android logs
 ```
 
 * Scrcpy
 ```shell
-$ payable scrcpy
+$ android scrcpy
 ```
 
 * APK
 ```shell
-$ payable apk some_file.apk
+$ android apk some_file.apk
 ```
 
 * Files
 ```shell
-$ payable files any_file_name
+$ android files any_file_name
 ```
 
 * Install from URL
 ```shell
-$ payable install-url "https://someurl.com/file.apk"
+$ android install-url "https://someurl.com/file.apk"
 ```
 
 * Rename file according to the output.json version name and custom name
 ```shell
-$ payable vname
+$ android vname
 ```
